@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python_webdev_fastapi"
+version = "0.1.0"
+description = ""
+authors = ["Anthony Leotta <tony@leotta.com>"]
+
+[tool.poetry.dependencies]
+python = "3.10.5"
+starlette = "^0.21.0"
+flake8 = "^5.0.4"
+autopep8 = "^2.0.0"
+uvicorn = "^0.19.0"
+aiosqlite = "^0.17.0"
+pytest = "^7.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

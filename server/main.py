@@ -25,9 +25,9 @@ async def some_shutdown_task():
 routes = [Route('/', homepage)]
 
 app = Starlette(debug=True,
-    routes=routes,
-    on_startup=[some_startup_task],
-    on_shutdown=[some_shutdown_task])
+                routes=routes,
+                on_startup=[some_startup_task],
+                on_shutdown=[some_shutdown_task])
 
 
 # READ
@@ -41,5 +41,3 @@ app = Starlette(debug=True,
 # UPDATE
 
 # DELETE
-
-
