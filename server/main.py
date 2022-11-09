@@ -8,7 +8,7 @@ DATABASE_URL = "test.db"
 
 
 async def homepage(request):
-    return JSONResponse({'hello': 'world'})
+    return JSONResponse({'msg': 'Hello World'})
 
 
 async def some_startup_task():
